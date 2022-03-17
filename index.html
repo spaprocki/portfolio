@@ -21,75 +21,77 @@
       rel="stylesheet"
     />
 
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <title>Portfolio</title>
   </head>
+
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+    <header class="flex-row">
+      <img src="images/pexels-alex-knight-2599244.jpg" alt="A photo of a robot">
+      <div class="flex-column">
+        <div class="flex-row">
+          <div class="flex-column">
+            <p id="name">Szymon Paprocki</p>
+            <p id="profession">Front-end developer</p>
+          </div>
+          <div class="flex-column">
+            <p id="email">s.paprocki.jobs@gmail.com</p>
+            <p id="phone-number">+48 123 456 789</p>
+          </div>
+        </div>
+        <p>Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
+        <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
       </div>
+    </header>
+    <main class="flex-row">
+      <div class="flex column">
+        <ul id="skills">
+          <h3>Front end</h3>
+          <li>
+            <p>HTML</p>
+            <div class="skill-bar-gray">
+              <div class="skill-bar-blue"></div>
+            </div>
+          </li>
+          <li>
+            <p>CSS</p>
+            <div class="skill-bar-gray">
+              <div class="skill-bar-blue"></div>
+            </div>
+          </li>
+          <li>
+            <p>Javascript</p>
+            <div class="skill-bar-gray">
+              <div class="skill-bar-blue"></div>
+            </div>
+          </li>
+          <li>
+            <p>React</p>
+            <div class="skill-bar-gray">
+              <div class="skill-bar-blue"></div>
+            </div>
+          </li>
+        </ul>
+        <ul id="hobbies">
+          <h3>Hobbies</h3>
+          <li>
+            <img alt="An image of my first hobby">
+            <p>Bodybuilding</p>
+          </li>
+          <li>
+            <img alt="An image of my first hobby">
+            <p>Philosophy</p>
+          </li>
+          <li>
+            <img alt="An image of my first hobby">
+            <p>Languages</p>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-column">
+        <div id="filter-box">
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
