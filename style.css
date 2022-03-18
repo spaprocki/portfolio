@@ -1,0 +1,134 @@
+:root {
+    --size-48: 12.8vw;
+    --size-36: 9.6vw;
+    --size-24: 6.4vw;
+    --size-18: 4.8vw;
+    --size-16: 4.26vw;
+    --size-14: 3.73vw;
+    --size-12: 3.2vw;
+    --size-8: 2.13vw;
+    --blue: #2F80ED;
+    --gray-1: #333333;
+    --gray-2: #4F4F4F;
+    --gray-3: #828282;
+    --gray-4: #F2F2F2;
+    --white: #FFFFFF;
+}
+
+.font-24 {
+    font-size: var(--size-24);
+}
+
+.font-18 {
+    font-size: var(--size-18);
+}
+
+.font-16 {
+    font-size: var(--size-16);
+}
+
+.font-14 {
+    font-size: var(--size-14);
+}
+
+.font-12 {
+    font-size: var(--size-12);
+}
+
+.font-semi-bold {
+    font-weight: 600;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-gray-1 {
+    color: var(--gray-1);
+}
+
+.text-gray-2 {
+    color: var(--gray-2);
+}
+
+.text-gray-3 {
+    color: var(--gray-3);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.padding-24 {
+    padding: var(--size-24);
+}
+
+.margin-top-48 {
+    margin-top: var(--size-48);
+}
+
+.margin-top-36 {
+    margin-top: var(--size-36);
+}
+
+.margin-top-24 {
+    margin-top: var(--size-24);
+}
+
+.margin-top-18 {
+    margin-top: var(--size-18)
+}
+
+.margin-top-8 {
+    margin-top: var(--size-8);
+}
+
+.margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border-radius-12 {
+    border-radius: var(--size-12);
+}
+
+.background-color-blue {
+    background-color: var(--blue);
+}
+
+.background-color-white {
+    background-color: var(--white);
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.width-80 {
+    width: 80vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--gray-4);
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    
+}

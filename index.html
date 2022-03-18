@@ -21,25 +21,38 @@
       rel="stylesheet"
     />
 
+    <link href="style.css" rel="stylesheet"/>
+
     <title>Portfolio</title>
   </head>
 
   <body>
-    <header class="flex-row">
-      <img src="images/pexels-alex-knight-2599244.jpg" alt="A photo of a robot">
-      <div class="flex-column">
-        <div class="flex-row">
+    <header class="flex-row width-80 padding-24 margin-top-48 margin-auto background-color-white border-radius-12">
+      <img
+        id="portrait"
+        class="border-radius-12"
+        src="images/pexels-alex-knight-2599244.jpg"
+        alt="A photo of a robot"
+      />
+      <div class="flex-column margin-top-24">
+        <div class="flex-column">
           <div class="flex-column">
-            <p id="name">Szymon Paprocki</p>
-            <p id="profession">Front-end developer</p>
+            <p id="name" class="font-24 font-semi-bold text-gray-2">Szymon Paprocki</p>
+            <p id="profession" class="margin-top-8">Front-end developer</p>
           </div>
           <div class="flex-column">
-            <p id="email">s.paprocki.jobs@gmail.com</p>
+            <p id="email">papito@gmail.com</p>
             <p id="phone-number">+48 123 456 789</p>
           </div>
         </div>
-        <p>Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
-        <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+        <p>
+          Self-motivated developer, who is willing to learn and create
+          outstanding UI applications.
+        </p>
+        <p>
+          Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+          feugiat malesuada molestie.
+        </p>
       </div>
     </header>
     <main class="flex-row">
@@ -49,19 +62,19 @@
           <li>
             <p>HTML</p>
             <div class="skill-bar-gray">
-              <div class="skill-bar-blue"></div>
+              <div id="html-skill-level" class="skill-bar-blue"></div>
             </div>
           </li>
           <li>
             <p>CSS</p>
             <div class="skill-bar-gray">
-              <div class="skill-bar-blue"></div>
+              <div id="css-skill-level" class="skill-bar-blue"></div>
             </div>
           </li>
           <li>
             <p>Javascript</p>
             <div class="skill-bar-gray">
-              <div class="skill-bar-blue"></div>
+              <div id="js-skill-level" class="skill-bar-blue"></div>
             </div>
           </li>
           <li>
@@ -74,24 +87,92 @@
         <ul id="hobbies">
           <h3>Hobbies</h3>
           <li>
-            <img alt="An image of my first hobby">
+            <img alt="An image of my first hobby" />
             <p>Bodybuilding</p>
           </li>
           <li>
-            <img alt="An image of my first hobby">
+            <img alt="An image of my first hobby" />
             <p>Philosophy</p>
           </li>
           <li>
-            <img alt="An image of my first hobby">
+            <img alt="An image of my first hobby" />
             <p>Languages</p>
           </li>
         </ul>
       </div>
       <div class="flex-column">
-        <div id="filter-box">
-
+        <div id="filter-box" class>
+          <button class="filter-button">#HTML</button>
+          <button class="filter-button">#CSS</button>
+          <button class="filter-button">#Responsive</button>
         </div>
+        <ul id="projects">
+          <li class="flex-row">
+            <img alt="An image of my first project" />
+            <div class="project-text-wrapper flex-column">
+              <div class="hashtags-wrapper">
+                <p>#HTML</p>
+                <p>#CSS</p>
+                <p>#responsive</p>
+              </div>
+              <h3>Recipe Blog</h3>
+              <p>
+                In this project, I work with HTML and CSS to create a responsive
+                page . The design is from devchallenge.io. Donec aliquam est
+                dui, vel vestibulum diam sollicitudin id. Quisque feugiat
+                malesuada molestie.
+              </p>
+              <div class="buttons-wrapper">
+                <button>Demo</button>
+                <button>Code</button>
+              </div>
+            </div>
+          </li>
+          <li class="flex-row">
+            <img alt="An image of my first project" />
+            <div class="project-text-wrapper flex-column">
+              <div class="hashtags-wrapper">
+                <p>#HTML</p>
+                <p>#CSS</p>
+                <p>#responsive</p>
+              </div>
+              <h3>My Gallery</h3>
+              <p>
+                In this project, I work with HTML and CSS to create a responsive
+                page . The design is from devchallenge.io. Donec aliquam est
+                dui, vel vestibulum diam sollicitudin id. Quisque feugiat
+                malesuada molestie.
+              </p>
+              <div class="buttons-wrapper">
+                <button>Demo</button>
+                <button>Code</button>
+              </div>
+            </div>
+          </li>
+          <li class="flex-row">
+            <img alt="An image of my first project" />
+            <div class="project-text-wrapper flex-column">
+              <div class="hashtags-wrapper">
+                <p>#HTML</p>
+                <p>#CSS</p>
+                <p>#responsive</p>
+              </div>
+              <h3>Checkout</h3>
+              <p>
+                In this project, I work with HTML and CSS to create a responsive
+                page . The design is from devchallenge.io. Donec aliquam est
+                dui, vel vestibulum diam sollicitudin id. Quisque feugiat
+                malesuada molestie.
+              </p>
+              <div class="buttons-wrapper">
+                <button>Demo</button>
+                <button>Code</button>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </main>
+    <footer>created by <u>spaprocki</u> - devchallenges.io</footer>
   </body>
 </html>
