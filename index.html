@@ -21,13 +21,16 @@
       rel="stylesheet"
     />
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
     <link href="style.css" rel="stylesheet"/>
 
     <title>Portfolio</title>
   </head>
 
   <body>
-    <header class="flex-row width-80 padding-24 margin-top-48 margin-auto background-color-white border-radius-12">
+    <header class="flex-column width-80 padding-24 margin-top-48 margin-auto background-color-white border-radius-12">
       <img
         id="portrait"
         class="border-radius-12"
@@ -38,27 +41,27 @@
         <div class="flex-column">
           <div class="flex-column">
             <p id="name" class="font-24 font-semi-bold text-gray-2">Szymon Paprocki</p>
-            <p id="profession" class="margin-top-8">Front-end developer</p>
+            <p id="profession" class="font-18 text-gray-3 margin-top-8">Front-end developer</p>
           </div>
-          <div class="flex-column">
-            <p id="email">papito@gmail.com</p>
-            <p id="phone-number">+48 123 456 789</p>
+          <div class="flex-column margin-top-32">
+            <p id="email" class="flex-row font-18 text-gray-2 align-items-center"><span class="material-icons margin-right-8"> email </span>papito@gmail.com</p>
+            <p id="phone-number" class="flex-row font-18 text-gray-2 margin-top-8 align-items-center"><span class="material-icons margin-right-8"> phone </span>+48 123 456 789</p>
           </div>
         </div>
-        <p>
+        <p class="font-18 text-gray-3 margin-top-36 align-items-center text-align-justify">
           Self-motivated developer, who is willing to learn and create
           outstanding UI applications.
         </p>
-        <p>
+        <p class="font-18 text-gray-3 margin-top-24 align-items-center text-align-justify">
           Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
           feugiat malesuada molestie.
         </p>
       </div>
     </header>
-    <main class="flex-row">
+    <main class="flex-column">
       <div class="flex column">
-        <ul id="skills">
-          <h3>Front end</h3>
+        <ul id="skills" class="width-80 padding-24 margin-top-48 margin-auto background-color-white border-radius-12">
+          <h3 class="font-18 font-bold text-gray-2">FRONT END</h3>
           <li>
             <p>HTML</p>
             <div class="skill-bar-gray">
@@ -107,7 +110,7 @@
           <button class="filter-button">#Responsive</button>
         </div>
         <ul id="projects">
-          <li class="flex-row">
+          <li class="flex-column">
             <img alt="An image of my first project" />
             <div class="project-text-wrapper flex-column">
               <div class="hashtags-wrapper">
@@ -128,7 +131,7 @@
               </div>
             </div>
           </li>
-          <li class="flex-row">
+          <li class="flex-column">
             <img alt="An image of my first project" />
             <div class="project-text-wrapper flex-column">
               <div class="hashtags-wrapper">
@@ -149,7 +152,7 @@
               </div>
             </div>
           </li>
-          <li class="flex-row">
+          <li class="flex-column">
             <img alt="An image of my first project" />
             <div class="project-text-wrapper flex-column">
               <div class="hashtags-wrapper">
